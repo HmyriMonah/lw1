@@ -2,12 +2,20 @@ body {
   background-color: #282828;
   color: #c8c8be;
 }
+
 a {
   color: #c8c8be;
 }
-.header_border {
-  box-shadow: 0px 2px 0px rgba(255, 255, 255, 0.16);
+
+.header {
+  height: 110px;
+  box-shadow: inset 0px -3px 0px 0px rgba(255, 255, 255, 0.5);
 }
-.line {
-  border: 2px solid #c8c8be;
+
+.intro__subtitle {
+  box-shadow: inset 0px -3px 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+.header__menu__item:hover {
+  box-shadow: 0px 51.5px 0 -15px rgb(255, 255, 255);
 }

@@ -1,10 +1,16 @@
-.line {
-  border: 2px solid #000000;
-}
 a {
   color: #000000;
 }
-.header_border {
-  background: #ffffff;
-  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.16);
+
+.header {
+  height: 110px;
+  box-shadow: inset 0px -3px 0px 0px rgba(0, 0, 0,0.5);
+}
+
+.intro__subtitle {
+  box-shadow: inset 0px -3px 0px 0px rgb(0, 0, 0);
+}
+
+.header__menu__item:hover {
+  box-shadow: 0px 51.5px 0 -15px rgb(0, 0, 0);
 }

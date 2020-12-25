@@ -10,37 +10,37 @@
   font-family: SF Pro Display;
   src: url(../fonts/SF-Pro-Display-Medium.otf);
 }
+
 a {
-  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  text-decoration: none;
 }
-.logo {
-  position: absolute;
-  width: 395.83px;
-  height: 37.53px;
-  left: 63.58px;
-  top: 52.54px;
+.header__logo {
+ margin-top: 10px;
+ margin-left: 40px;
 }
-.menu {
+.header {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu {
   font-family: New York Small;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 170%;
   text-transform: uppercase;
   letter-spacing: 0.12em;
+  margin-top: 40px;
+  margin-right: 40px;
 }
-.menu_item {
+
+.header__menu__item {
   display: inline-block;
   margin: 0 15px;
-  vertical-align: top;
   position: relative;
-  width: 71px;
-  height: 34px;
-  left: 910px;
-  top: 59px;
-  text-align: center;
 }
-.menu_item:after {
+
+.header__menu__item:after {
   content: "";
   display: none;
   width: 100%;
@@ -50,45 +50,32 @@ a {
   left: 0;
   margin-top: 41px;
 }
-.line {
-  position: absolute;
-  width: 66px;
-  height: 0px;
-  left: 936px;
-  top: 134px;
-}
-.header_border {
-  position: absolute;
-  width: 1440px;
-  height: 133px;
-  left: 0px;
-  top: 0.1px;
-}
 
-.introduction {
+.intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 80px;
   font-style: normal;
 }
-.introduction_container {
+
+.intro__container {
   width: 100%;
   max-width: 858px;
   margin: 0 auto;
 }
-.main_picture {
+.intro__main__picture {
   text-align: center;
 }
-.introduction_title {
+.intro__title {
   text-align: center;
   font-family: New York Extra Large;
   font-weight: bold;
   font-size: 54px;
   line-height: 100%;
 }
-.introduction_subtitle {
+.intro__subtitle {
   font-family: SF Mono;
   font-weight: normal;
   font-size: 20px;
@@ -97,15 +84,9 @@ a {
   max-width: 592px;
   max-height: 68px;
   margin: 0 auto;
+  padding-bottom: 40px;
+  
 }
-.introduction .line {
-  position: absolute;
-  width: 640px;
-  height: 0px;
-  left: 400px;
-  top: 1200px;
-}
-
 .articles {
   margin: 64px auto 0;
 }
